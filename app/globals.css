@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+body { @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100; }
+.container { @apply max-w-5xl mx-auto px-4; }
+
+/* 不需要再自訂 .prose，直接在元件上加 class 使用 */

@@ -1,0 +1,19 @@
+@'
+# dependencies
+node_modules/
+# next build
+.next/
+out/
+# env & local
+.env*
+.vercel/
+# logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# OS
+.DS_Store
+Thumbs.db
+# misc
+*.zip
+'@ | Out-File -Encoding utf8 .gitignore
