@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { tools } from '@/lib/tools';
 import ToolClient from './ToolClient';
+import ShareBar from '@/components/ShareBar'
 
 export function generateStaticParams() {
   // 讓 Next 在 export 時預先產生所有工具頁
@@ -56,6 +57,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
           </a>
         </p>
       </section>
+      <ShareBar title={tool.title} />
     </div>
   );
 }

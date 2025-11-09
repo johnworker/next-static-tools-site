@@ -1,4 +1,3 @@
-// app/tools/[slug]/ToolClient.tsx  （Client Component）
 'use client';
 
 import { notFound } from 'next/navigation';

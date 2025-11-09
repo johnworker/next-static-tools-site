@@ -6,10 +6,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          DEFAULT: '#0284c7', // sky-600
-          dark: '#0369a1',
-        },
+        brand: { DEFAULT:'#0284c7', dark:'#0369a1' } // sky-600 系列
       }
     }
   },

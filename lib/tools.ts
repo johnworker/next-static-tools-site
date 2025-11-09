@@ -1,4 +1,4 @@
-export type ToolItem = { slug: string; title: string; desc: string; tag: string };
+export type ToolItem = { slug: string; title: string; desc: string; tag: string }
 export const tools: ToolItem[] = [
   { slug:'bmi', title:'BMI 計算機', desc:'輸入身高與體重，快速計算 BMI 與範圍判定。', tag:'健康' },
   { slug:'date-diff', title:'日期差計算', desc:'計算兩個日期之間的天數與週數。', tag:'效率' },
